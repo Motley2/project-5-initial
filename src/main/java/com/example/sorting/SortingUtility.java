@@ -38,7 +38,7 @@ public class SortingUtility {
     }
 
     public static <T extends Comparable<T>> void shellSort(T[] a) {
-        int[] gaps = {711, 342, 123, 64, 24, 11, 5, 1};
+        int[] gaps = {701, 301, 132, 57, 23, 10, 4, 1};
         for (int gap : gaps) {
             for (int i = gap; i < a.length; i++) {
                 T temp = a[i];
